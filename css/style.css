@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(122, 122, 192);
+}
+h1{
+    color: black;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.titulo{
+    color: black;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    border: 8px solid blue;
+    border-radius: 5px;
+}
+ul{
+    list-style-position: inside;
+    text-align: center;
+}
