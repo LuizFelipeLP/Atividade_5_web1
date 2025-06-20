@@ -21,3 +21,6 @@ ul{
     list-style-position: inside;
     text-align: center;
 }
+table{
+    border: 4px solid black;
+}
