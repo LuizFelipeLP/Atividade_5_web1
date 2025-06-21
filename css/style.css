@@ -1,5 +1,14 @@
+.cabecalho{
+    display: flex;
+}
+.logo{
+    max-width: 100%;
+    width: 10%;
+    height: auto;
+}
+
 body{
-    background-color: rgb(122, 122, 192);
+    background-color: rgb(117, 117, 119);
 }
 h1{
     color: black;
@@ -21,6 +30,21 @@ ul{
     list-style-position: inside;
     text-align: center;
 }
+/* página Grupo*/
+.grupos{
+    display: flex;
+    background-color: white;
+    gap: 10px;
+    height: 500px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tabela{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
 table{
-    border: 4px solid black;
+    border: 4px solid rgb(214, 13, 13);
 }
