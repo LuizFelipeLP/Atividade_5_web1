@@ -33,7 +33,7 @@ ul{
 /* página Grupo*/
 .grupos{
     display: flex;
-    background-color: white;
+    background-color: green;
     gap: 10px;
     height: 500px;
     flex-flow: column wrap;
@@ -41,10 +41,10 @@ ul{
     align-items: center;
 }
 .tabela{
-    background-color: brown;
+    background-color: grey;
     width: 200px;
     height: 200px;
 }
 table{
-    border: 4px solid rgb(214, 13, 13);
+    border: 4px solid rgb(35, 35, 77);
 }
