@@ -7,17 +7,20 @@
     flex-flow: row wrap;
     justify-content: space-between;
 }
+
 .itemCabe{
     background-color: rgb(1, 1, 37);
     width: 100px;
     height: 90px;
     
 }
+
 #logo{
     max-width: 100%;
     width: 100px;
     height: 100px;
 }
+
 #titulo{
     width: 400px;
     height: 50px;
@@ -28,14 +31,17 @@
      color: gray;
     background-color: black;
 }
+
 #menu{
     width: 150px;
     margin-right: 100px;
 }
+
 /*Parte do body*/
 body{
     background-color: rgb(117, 117, 119);
 }
+
 h1{
     color: black;
     background-color: blueviolet;
@@ -44,10 +50,100 @@ h1{
     border: 2px solid black;
     border-radius: 50px;
 }
+
 ul{
     list-style-position: inside;
     text-align: center;
 }
+
+/*Página principal*/
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Espaço entre os elementos */
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.principe {
+  max-width: 100%;
+}
+
+.principal img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.principal a {
+  color: #2980b9;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.principal a:hover {
+  color: #1a252f;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2980b9;
+  outline: none;
+  background-color: #f0faff;
+}
+
+button {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1a252f;
+}
+
 /* página Grupo*/
 .grupos {
   display: flex;
@@ -96,4 +192,24 @@ tbody tr:hover {
 
 th {
   color: #333;
+}
+
+/*Página times*/
+.times {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.times img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
